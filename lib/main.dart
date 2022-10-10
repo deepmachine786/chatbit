@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import "dart:io";
 
 void main() {
   runApp(const MyApp());
 }
-
-function() => Colors.grey;
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -16,17 +13,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-          // This is the theme of your application.
-          //
-          // Try running your application with "flutter run". You'll see the
-          // application has a blue toolbar. Then, without quitting the app, try
-          // changing the primarySwatch below to Colors.green and then invoke
-          // "hot reload" (press "r" in the console where you ran "flutter run",
-          // or simply save your changes to "hot reload" in a Flutter IDE).
-          // Notice that the counter didn't reset back to zero; the application
-          // is not restarted.
-
-          primarySwatch: function()),
+        // This is the theme of your application.
+        //
+        // Try running your application with "flutter run". You'll see the
+        // application has a blue toolbar. Then, without quitting the app, try
+        // changing the primarySwatch below to Colors.green and then invoke
+        // "hot reload" (press "r" in the console where you ran "flutter run",
+        // or simply save your changes to "hot reload" in a Flutter IDE).
+        // Notice that the counter didn't reset back to zero; the application
+        // is not restarted.
+        primarySwatch: Colors.orange,
+      ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -99,19 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-                "Welcome to Chatbit\nUse AR to see MacBook Air in your workspace",
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 45,
-                  color: Color.fromARGB(255, 19, 17, 17),
-                  fontWeight: FontWeight.w500,
-                )),
-            const Text(
-                'You have pushed the button this many times:You have pushed the button this many times:You have pushed the button this many times:You have pushed the button this many times:You have pushed the button this many times:You have pushed the button this many times:You have pushed the button this many times:You have pushed the button this many times:You have pushed the button this many times:',
-                style: TextStyle(
-                  color: Color.fromARGB(255, 117, 117, 117),
-                  fontSize: 20,
-                )),
+              'You have pushed the button this many times:',
+            ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
