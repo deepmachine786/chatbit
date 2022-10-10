@@ -1,3 +1,5 @@
+<img src="https://github.com/deepmachine786/chatbit/blob/main/playstore.png"></img>
+
 # chatbit
 
 A new Flutter project.
