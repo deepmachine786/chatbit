@@ -1,6 +1,6 @@
 # CHATBIT | Messaging Application
 
-<img src="https://github.com/deepmachine786/chatbit/blob/main/assets/images/heade_chatbit.png"></img>
+<img src="https://github.com/deepmachine786/chatbit/blob/main/assets/images/large-chatbit.png"></img>
 
 
 ## Overview
