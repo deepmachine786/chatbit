@@ -1,11 +1,11 @@
 # CHATBIT | Messaging Application
 
-<img src="https://github.com/deepmachine786/chatbit/blob/main/assets/images/ChatBit.png"></img>
+<img src="https://github.com/deepmachine786/chatbit/blob/main/assets/images/heade_chatbit.png"></img>
 
 
 ## Overview
 
-This repository contains the source code and documentation for Chatbit, a secure messaging application developed by [Your Name]. Chatbit offers various features such as encryption, language support, dynamic animations, and advanced authentication methods to ensure user privacy and a seamless messaging experience.
+This repository contains the source code and documentation for Chatbit, a secure messaging application developed by Md Shahid Ali. Chatbit offers various features such as encryption, language support, dynamic animations, and advanced authentication methods to ensure user privacy and a seamless messaging experience.
 
 ## Key Features
 
